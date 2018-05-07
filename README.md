@@ -22,12 +22,12 @@ cd ~/.dotfiles
 ./setup.sh
 ```
 
-#Add new submodules manually
+### Add new submodules manually
 ```
 git submodule add https://github.com/somerepo/submodule.git vim/pack/plugins/somerepo/submodule
 ```
 
-#Remove submodules manually
+### Remove submodules manually
 ```
 git submodule deinit vim/pack/plugins/somerepo/submodule
 git rm vim/pack/shapeshed/start/somerepo/submodule
