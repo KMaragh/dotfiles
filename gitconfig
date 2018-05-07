@@ -1,0 +1,7 @@
+[user]
+    name = Kadeem M
+    email = ksmaragh@gmail.com
+[credential]
+    helper = cache --timeout=7200
+[color]
+    ui = auto
