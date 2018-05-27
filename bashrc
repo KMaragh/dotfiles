@@ -79,8 +79,10 @@ SSH_AUTH_SOCK_DIR=$(dirname ${SSH_AUTH_SOCK})
 export SSH_AUTH_SOCK
 
 # Golang setup
-source $HOME/.dotfiles/golang.sh
+source $HOME/.bash_scripts/golang.sh
 
+#Git autocomplete
+source $HOME/.bash_scripts/git-completion.bash
 
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then

@@ -2,6 +2,6 @@
     name = Kadeem M
     email = ksmaragh@gmail.com
 [credential]
-    helper = cache --timeout=7200
+	helper = cache --timeout=3600
 [color]
     ui = auto
