@@ -16,3 +16,7 @@ alias l='ls -CF'
 
 # vim is better, but I am too lazy to type an extra letter
 alias vi='vim'
+
+# ip config quality of life imporvments
+alias ip='ip --color'
+alias ipb='ip --color --brief'
