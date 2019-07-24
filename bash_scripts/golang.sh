@@ -3,7 +3,7 @@
 source $HOME/.dotfiles/common.sh
 
 # Go variables
-GOLANG_VERSION=1.10.1
+GOLANG_VERSION=1.12.7
 export GOLANG_VERSION
 
 GOLANG_BASE=${HOME}/go
