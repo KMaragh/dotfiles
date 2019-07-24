@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Making backup directory"
-mkdir ~/.dotfiles_backup
+mkdir -p ~/.dotfiles_backup 
 
 echo "Moving current dotfiles to backup directory"
 mv ~/.bash_profile ~/.bash_aliases ~/.bashrc ~/.gitconfig ~/.tmux.conf ~/.vim ~/.vimrc ~/.bash_scripts ~/.dotfiles_backup
